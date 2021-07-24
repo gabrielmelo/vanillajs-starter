@@ -3,11 +3,19 @@
   "version": "0.0.1",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html -p 3000",
+    "build": "parcel build index.html",
+    "release": "standard-version"
   },
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
+    "cz-conventional-changelog": "3.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "standard-version": "^9.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

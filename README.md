@@ -6,6 +6,7 @@ HTML Starter is a starting point to build static sites with HTML, Sass and Tailw
 - [Babel](https://babeljs.io/)
 - [Parcel](https://parceljs.org/)
 - [Sass](https://sass-lang.com/)
+- [Standard-version](https://github.com/conventional-changelog/standard-version)
 - [Tailwindcss](tailwindcss.com/)
 
 ## Getting Started
@@ -25,7 +26,7 @@ git clone
 yarn install
 ```
 
-3. Start
+3. To run in development mode
 ```shell
 yarn start
 ```
