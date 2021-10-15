@@ -1,6 +1,6 @@
 {
   "name": "html-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html -p 3000",
