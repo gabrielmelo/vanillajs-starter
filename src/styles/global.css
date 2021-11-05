@@ -1,0 +1,10 @@
+:root {
+  --yellow-500: rgb(212, 192, 24);
+  --blue-500: rgb(38, 192, 230);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

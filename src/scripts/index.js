@@ -1,3 +1,9 @@
-import { greeting } from './Greeting';
+import * as style from './index.module.css'
+document.body.className = style.body
 
-greeting('Hello, world!')
+console.log('Hello, world!')
+
+// if(module.hot) {
+//   module.hot.accept()
+// }
+

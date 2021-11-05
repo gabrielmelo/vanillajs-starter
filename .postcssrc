@@ -1,6 +1,11 @@
 {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+  "module": true,
+  "plugins": {
+    "postcss-modules": {
+      "generateScopedName": "_[name]__[local]"
+    },
+    "postcss-import": true,
+    "postcss-url": true,
+    "postcss-custom-properties": true
   }
 }
