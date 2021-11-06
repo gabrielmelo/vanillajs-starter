@@ -1,6 +1,6 @@
 {
   "name": "html-starter",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "source": "src/index.html",
   "scripts": {
     "cleanup": "rm -rf .parcel-cache dist",
