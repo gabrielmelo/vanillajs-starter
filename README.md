@@ -17,16 +17,16 @@ HTML Starter is a starting point to build static sites with HTML, Sass and Tailw
   
 ### Installation
 1. Clone the repro
-```shell
+```sh
 git clone 
 ```
 
 2. Install packages
-```shell
-yarn install
+```sh
+pnpm i
 ```
 
 3. To run in development mode
-```shell
-yarn start
+```sh
+pnpm dev
 ```

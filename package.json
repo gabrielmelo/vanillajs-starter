@@ -1,21 +1,24 @@
 {
-  "name": "html-starter",
+  "name": "vanilla-js-starter",
   "version": "0.2.1",
-  "main": "index.html",
+  "main": "main.js",
   "scripts": {
-    "start": "parcel index.html -p 3000",
-    "build": "parcel build index.html",
+    "start": "vite",
+    "build": "vite build",
+		"lint": "eslint src/*.js",
     "release": "standard-version"
   },
-  "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.57.0",
     "standard-version": "^9.3.1",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+		"vite": "^5.2.6"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "license": "MIT"
 }
